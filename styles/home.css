@@ -1,0 +1,68 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.container-header {
+    width: 1440px;
+}
+
+.menu a {
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+}
+
+.active  {
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+}
+
+.container-main {
+
+
+    background: linear-gradient(180deg, #6721A0 0%, #000000 122.18%);
+}
+
+.button-main {
+    width: 250px;
+    height: 50px;
+    font-weight: 700;
+}
+
+.input {
+    height: 48px;
+    max-width:843px;
+
+    border-right: none; 
+    background-color: transparent;
+
+    border: 1px solid white;
+    border-radius: 1rem;
+    
+
+}
+
+.input-grupo {
+    
+
+    border: 1px solid white;
+    border-radius: 1rem;
+
+    background-color: transparent
+}
+
+.input::placeholder {
+    color: white;
+}
+.icone {
+    color: white;
+}
+
+.noticia {
+    max-width: 900px;
+}
