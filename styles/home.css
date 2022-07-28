@@ -7,11 +7,19 @@ h2 {
     font-weight: 400;
 }
 
+.img-fluid {
+    max-width: 90%;
+}
+
 .container-header {
     max-width: 1440px;
 }
 
-.menu a {
+.img-logo-blog {
+    width: 200px;
+}
+
+.menu div a {
     font-weight: 400;
     font-size: 30px;
     color: black;
@@ -29,7 +37,8 @@ h2 {
 }
 
 .button-main {
-    width: 250px;
+    max-width: 300px;
+    width: 70%;
     height: 50px;
     font-weight: 700;
 }
@@ -89,4 +98,75 @@ h2 {
 .container-footer {
     color: black;
     font-weight: 700;
+}
+
+@media screen and (max-width: 780px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .img-logo-blog {
+        width: 150px;
+    }
+
+    .menu div a {
+        font-size: 20px;
+        
+    }
+
+    
+
+}
+
+@media screen and (max-width: 570px) {
+    .menu {
+        justify-content: center;
+    }
+
+    .menu-links {
+        margin-left: 0 !important;
+    }
+
+    .img-logo-blog {
+        margin: 0 !important;
+    }
+    
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-endereco {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .logo-endereco p {
+        margin-right: 0 !important;
+        padding: 0 !important;
+    }
+
+    .img-logo-atomo {
+        width: 50px;
+        height: 50px;
+
+        margin-bottom: 1rem;
+    }
+
+    .redes-sociais {
+        margin: 0 !important;
+    }
 }

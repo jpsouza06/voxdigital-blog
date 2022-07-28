@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vox Digital | Inìcio</title>
+    <title>Vox Digital | Início</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,10 +25,12 @@
         <div class="container-fluid container-header">
 
             <nav class="nav menu">
-                <object data="/images/logo-vox-blog.svg" type="image/svg+xml" class="nav-item ml-5" style="width: 200px;"></object>
-                <a class="nav-link ml-5 mt-2 active" href="/">Início</a>
-                <a class="nav-link mt-2" href="/posts">Posts</a>
-                <a class="nav-link mt-2" href="/about">Sobre nós</a>
+                <object data="/images/logo-vox-blog.svg" type="image/svg+xml" class="nav-item ml-5 img-fluid img-logo-blog"></object>
+                <div class="d-flex flex-direction-row ml-5 mt-2 menu-links">
+                    <a class="nav-link active" href="/">Início</a>
+                    <a class="nav-link" href="/posts">Posts</a>
+                    <a class="nav-link" href="/about">Sobre nós</a>
+                </div>
             </nav>
 
         </div>
@@ -91,15 +93,20 @@
 
     <footer>
         <div class="container-fluid d-flex justify-content-center mt-4 mb-2 container-footer">
-            <div class="d-flex align-items-center text-lg-center vert ml-lg-5">
-                <img src="/images/logo-atomo.png" alt="logo-atomo">
+            <div class="d-flex align-items-center text-lg-center ml-lg-5 logo-endereco">
+                <img src="/images/logo-atomo.png" alt="logo-atomo" class="img-logo-atomo">
                 <p class="pl-4 mb-0 mr-5">Rua auctor purus luctus enim egestas, Bairro Lorem ipsum<br> Cidade Lorem ipsum - Estado Lorem ipsum<br>CEP: 000000-000
                 </p>
             </div>
 
-            <div class="d-flex align-items-center ml-5">
-                <img class="ml-5 mr-4" src="/images/wpp.png" alt="wpp">
-                <img src="/images/linkedin.png" alt="linkedin">
+            <div class="d-flex align-items-center ml-5 redes-sociais">
+                <a href="https://www.whatsapp.com/" target="_blank" class="mr-3">
+                    <img src="/images/wpp.png" alt="whatsapp">
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="/images/linkedin.png" alt="linkedin">
+                </a>
             </div>
         </div>
     </footer>
