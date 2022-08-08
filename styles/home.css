@@ -1,6 +1,10 @@
-body {
+body, h1, a {
     font-family: 'Archivo', sans-serif;
     color: white;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 h2 {
@@ -31,9 +35,11 @@ h2 {
 }
 
 .container-main {
-
-
     background: linear-gradient(180deg, #6721A0 0%, #000000 122.18%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .button-main {
@@ -41,6 +47,10 @@ h2 {
     width: 70%;
     height: 50px;
     font-weight: 700;
+}
+
+.container-pesquisa {
+    max-width: 1440px;
 }
 
 .input {
@@ -93,6 +103,10 @@ h2 {
 
 .noticia {
     max-width: 900px;
+}
+
+.noticia-texto {
+    width: 80%;
 }
 
 .container-footer {
