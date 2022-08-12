@@ -25,6 +25,7 @@ h2 {
     align-items: center;
   
 }
+
 .container-noticias{
     
 }
@@ -36,7 +37,6 @@ h2 {
     width: 510px;
     height: 140px;
 }
-.noticia
 .box1{
     display: flex;
 }
@@ -54,8 +54,7 @@ h2 {
 }
 
 .item-1{
-    max-width: 520px;
-    width: 100%;
+    width: 520px;
     height: 346,6px;
     margin: 50px;
 }
