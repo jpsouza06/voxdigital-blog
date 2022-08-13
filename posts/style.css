@@ -10,55 +10,99 @@ h2 {
     font-weight: 400;
 }
 
+.container-header {
+    max-width: 1440px;
+}
+
 .img-logo-blog {
-    width: 200px;
+    max-width: 200px;
+    max-height: 44.2px;
 }
 .menu div a {
     font-weight: 400;
     font-size: 30px;
     color: black;
 }
+
+.active  {
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+}
+
 .container-main {
     background: linear-gradient(180deg, #6721A0 0%, #000000 122.18%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
 }
 
-.container-noticias{
+
+.input {
+    height: 48px;
+    max-width:843px;
+
+    border-right: none; 
+    background-color: transparent;
+
+    border: 1px solid white;
+    border-radius: 1rem;
+
     
-}
-.noticias-pequena{
-    width: 650px; 
-    height: 433px; 
-}
-.noticia-texto{
-    width: 510px;
-    height: 140px;
-}
-.box1{
-    display: flex;
-}
-.box2{
-    display: flex;
-}
-.box3{
-    display: flex;
-}
-.box4{
-    display: flex;
-}
-.box5{
-    display: flex;
+    color: white;
+
 }
 
-.item-1{
-    width: 520px;
-    height: 346,6px;
-    margin: 50px;
+.input-group {
+    width: 80%;
 }
 
+.input:focus {
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    border: 1px solid white;
+    outline: 0;
+    color: white;
+}
+
+.input-grupo {
+    
+
+    border: 1px solid white;
+    border-radius: 1rem;
+
+    background-color: transparent
+
+}
+
+.input::placeholder {
+    color: white;
+}
+.icone {
+    color: white;
+}
+
+.button-pesquisa {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-pesquisa:focus {
+    outline: 0;
+}
+
+.container-noticias {
+    max-width: 1440px;
+}
+
+
+.container-noticias p{
+    width: 85%;
+}
+
+.img-noticias {
+    max-width: 650px;
+    width: 90%;
+
+    border-radius: 20px !important;
+}
 
 .container-footer {
     color: black;
@@ -89,6 +133,11 @@ h2 {
         font-size: 20px;
         
     }
+
+    .container-noticias p{
+        width: 75%;
+    }
+
 }
 @media screen and (max-width: 570px) {
     .menu {
