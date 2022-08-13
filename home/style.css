@@ -20,7 +20,8 @@ h2 {
 }
 
 .img-logo-blog {
-    width: 200px;
+    max-width: 200px;
+    max-height: 44.2px;
 }
 
 .menu div a {
